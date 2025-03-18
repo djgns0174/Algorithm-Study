@@ -1,9 +1,9 @@
 # Algorithm-Study
 > 알쓰방입니다.
-- 기간: 2021년 3월~
-- 정기 회의: 수요일 오후 8시
+- 기간: 2025년 3월~
+- 정기 회의: 화요일 오후 6시
 - 참고 사이트: [프로그래머스](https://programmers.co.kr/learn/challenges), [백준](https://www.acmicpc.net/)
-- 언어: 파이썬
+- 언어: c++, 파이썬
 
 ## 스터디 규칙 
 
@@ -32,31 +32,3 @@
 
 - 만약 주차에 해당하는 문제 풀이가 미완료 시, 회의 당일에 직접 문제 풀이 진행해야 함.
 - 끝날 때까지 회의는 끝나지 않음..(열심히 하자..다른 사람을 생각하며)
-
-## PR 규칙 및 Commit Message 규칙
-
-#### Pull Request
-
-- [Programmers-폴더명] 이름
-
-- [Baekjoon-폴더명] 이름
-
-#### Commit Message
-
-- [Programmers-문제번호] 문제명
-
-- [Baekjoon-문제번호] 문제명
-
-## 파일 및 폴더 구조
-
-#### 프로그래머스
-
-- Programmers/suyeon/폴더명/문제명.py
-- Programmers/eugene/폴더명/문제명.py
-- Programmers/jiwoo/폴더명/문제명.py
-
-#### 백준
-
-- Baekjoon/suyeon/폴더명/문제번호_문제명.py
-- Baekjoon/eugene/폴더명/문제번호_문제명.py
-- Baekjoon/jiwoo/폴더명/문제번호_문제명.py
