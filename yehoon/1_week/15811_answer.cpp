@@ -13,7 +13,7 @@ int numOfAlphabet[26] = {-1};	// 각 알파벳에 해당하는 숫자를 저장�
 bool isExistAlphabet[26] = { false };	// 입력 string의 알파벳들의 존재여부를 저장할 공간
 bool isUsedNumber[10] = { false };		// 0~9까지의 숫자를 사용했는지 체크할 공간
 
-bool isBokMyunSan = false;		
+bool isBokMyunSan = false;
 
 vector<int> alphabet;		// 존재하는 알파벳만 담은 공간
 
