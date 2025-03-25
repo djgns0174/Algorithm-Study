@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// 틀린이유 -> 이전 모든 경로값 저장하다가 시간초과남
 queue<pair<int, int> > q;
 bool visited[100001] = {false,};
 int arr[100001] = {0,};
