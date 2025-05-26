@@ -1,5 +1,6 @@
 #include <iostream>
 #include <map>
+#include <vector>
 
 using namespace std;
 
@@ -23,10 +24,13 @@ int main(){
         }
     }
    
+    vector<string> v;
     for(int i=0;i<K;i++){
         string str;
         cin >> str;
        
+         // 신이 좋아하는 문자열은 중복될 수 있기 때문에 따로 벡터에 담아 둠 map만 쓰면 중복 고려가 안됨 
+        v.push_back(str);
         m.insert({str, 0});
     }
    
@@ -38,8 +42,8 @@ int main(){
    
    
     // 정답 출력
-    for(auto iter=m.begin(); iter != m.end(); iter++){
-        cout << iter->second << "\n";
+    for(int i=0;i<K;i++){
+        cout << m[v[i]] << "\n";
     }
    
     return 0;
