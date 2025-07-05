@@ -84,11 +84,6 @@ void func(int depth, vector<vector<int>> cp_arr)
                     int end_i = rotate_cal[0] + l - 1;
                     int end_j = rotate_cal[1] + l - 1;
 
-                    //test
-                    // cout << endl;
-                    // cout << start_i << " " << start_j << endl; 
-                    // cout << end_i << " " << end_j << endl;
-
                     for(int x=start_j; x<end_j; x++) cp_arr1[start_i][x+1] = cp_arr[start_i][x];
                     for(int y=start_i; y<end_i; y++) cp_arr1[y+1][end_j] = cp_arr[y][end_j];
                     for(int x=end_j; x>start_j; x--) cp_arr1[end_i][x-1] = cp_arr[end_i][x];
