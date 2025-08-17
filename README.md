@@ -1,5 +1,5 @@
 # Algorithm-Study
-> 알쓰방입니다. 넥슨 nycp 파이팅
+> 알쓰방입니다. 넥슨 nycp 파이팅.
 - 기간: 2025년 3월~
 - 정기 모임: 화요일 오후 6시
 - 참고 사이트: [프로그래머스](https://programmers.co.kr/learn/challenges), [백준](https://www.acmicpc.net/)
